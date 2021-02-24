@@ -11,7 +11,6 @@ from messages import MESSAGES, NAMES
 from utils import TestStates
 
 
-# logging.basicConfig(level=logging.INFO)
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token='1160891964:AAE0ba37vkpS14RQlH0VVlI2VPTovdS_D7U')
