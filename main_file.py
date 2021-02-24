@@ -116,7 +116,7 @@ async def messages_chat_catcher(message: types.Message, state: FSMContext):
         await messages_catcher(message)
 
 
-# ЗДЕСЬ ЗАКАНЧИВАЮТСЯ
+# ЗДЕСЬ ЗАКАНЧИВАЮТСЯ chat_process
 
 
 @dp.message_handler(commands=['check'], state='*')
